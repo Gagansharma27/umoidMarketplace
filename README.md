@@ -52,10 +52,22 @@ Screen2
 
 ## Art Gallery Preview
 
-ART GALLERY
+
+A preview of the Art Gallery
 
 ![alt text](./public/ArtGallery_1.jpeg)
 
+
+Another preview of Art gallery
+
 ![alt text](./public/ArtGallery_2.jpeg)
+
+
+## Character Select
+
+
+Character Select Menu
+
+![alt text](./public/Character_Select.jpeg)
 
 
