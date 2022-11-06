@@ -24,14 +24,14 @@ export default function Mint() {
                 <Box as="main" position="relative" minHeight={{ base: "auto", md: "full" }} width={{ base: "full", md: "50%" }} padding={{ base: "2", md: "4" }}>
 
                     {/* Purchase */}
-                    <Heading size="3xl" textAlign={{ base: "center", md: "start" }}>Mint your mmFahmy</Heading>
-                    <Text marginTop="6"><b>Woofy</b> is a super-dog; he has the superpower of bestowing good luck. Mint your Woofy token and see your day instantly brighten!</Text>
-                    <Text color={highlightColor} marginTop="6" fontWeight={700}>Each WOOFY token you own decreases marketplace commission rate by 0.05% when making a sale!</Text>
-                    <Text marginTop="6" color={highlightColor} fontStyle="italic">There is an upper limit to the total number of WOOFYs that can be minted, after which the only way to get more WOOFYs is to buy them from people who have put theirs for sale!</Text>
+                    <Heading size="3xl" textAlign={{ base: "center", md: "start" }}>Mint your Utoken</Heading>
+                    <Text marginTop="6"><b>Utoken</b> is an unique token; it has the superpower of bestowing good luck. Mint your Utoken token and see your day instantly brighten!</Text>
+                    <Text color={highlightColor} marginTop="6" fontWeight={700}>Each Utoken token you own decreases marketplace commission rate by 0.05% when making a sale!</Text>
+                    <Text marginTop="6" color={highlightColor} fontStyle="italic">There is an upper limit to the total number of Utokens that can be minted, after which the only way to get more Utokens is to buy them from people who have put theirs for sale!</Text>
                     <Text fontSize="2xl" fontWeight={800} marginTop="6" textAlign={{ base: "center", md: "start" }}>1 DEX = 0.1 BNB</Text>
 
                     <Flex flexWrap="wrap" alignItems="center" gap={{ base: "4", md: "2" }} marginTop={{ base: "4", md: "2" }} width="fit-content" marginX={{ base: "auto", md: "unset" }} flexDirection={{ base: "column", md: "row" }}>
-                        <Button leftIcon={<BuyIcon size="24" />} colorScheme="brand" aria-label="Buy WOOFY for 0.1 bnb" marginX={{ base: "auto", md: "unset" }} display="flex" onClick={mintWoofy} isLoading={progressMintWoofy} loadingText="Minting" disabled={isConnected && maxWoofysNum.eq(woofyMintedsNum)} width="fit-content">Buy</Button>
+                        <Button leftIcon={<BuyIcon size="24" />} colorScheme="brand" aria-label="Buy Utoken for 0.1 bnb" marginX={{ base: "auto", md: "unset" }} display="flex" onClick={mintWoofy} isLoading={progressMintWoofy} loadingText="Minting" disabled={isConnected && maxWoofysNum.eq(woofyMintedsNum)} width="fit-content">Buy</Button>
 
                         {isConnected &&
                             <Text fontSize="md" color={highlightColor} textAlign={{ base: "center", md: "start" }}>{maxWoofysNum.sub(woofyMintedsNum).toString()} out of {maxWoofysNum.toString()} remaining!</Text>
@@ -45,11 +45,11 @@ export default function Mint() {
                 <>
                     <Divider marginY={{ base: "6", md: "unset" }} />
                     <Box as="section" padding={{ base: "4", md: "8" }} maxWidth="5xl" marginX="auto" marginTop="2">
-                        <Heading size="3xl" textAlign="center" marginTop={{ base: "2", md: "unset" }}>Your WOOFYs</Heading>
+                        <Heading size="3xl" textAlign="center" marginTop={{ base: "2", md: "unset" }}>Your Utokens</Heading>
 
                         <Text marginTop={{ base: "4", md: "2" }} textAlign="center">
                             {numOfWoofysOwned.isZero() ?
-                                "You don't own any WOOFYs yet!" :
+                                "You don't own any Utokens yet!" :
                                 `You own ${numOfWoofysOwned.toString()}/${maxWoofysNum.toString()} WOOFYs.`
                             }
                         </Text>
