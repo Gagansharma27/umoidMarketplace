@@ -11,6 +11,8 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
 ## About
 
 An AI based complete decentralized0 NFT Marketplace with a prototype of creating NFT Ecosystem based on EVM Based chains to display your NFT both 2D and 3D.
