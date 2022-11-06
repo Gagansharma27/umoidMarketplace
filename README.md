@@ -40,3 +40,6 @@ Process to create your own NFT:
 Now with a click your NFT will be minted in seconds.
 
 
+## Generator preview
+![alt text](./public/umoid.png) 
+
