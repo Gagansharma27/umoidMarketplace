@@ -21,6 +21,15 @@ To initialize, Click on Connect wallet button to connect your metamask wallet.
 Process to buy NFTs:
 -> Go to collections page.
 -> Open your favourite collection 
+-> Click Buy 
+-> Approve transaction
+-> Now your purchased NFT will be visible in Collection -> Owned 
+
+Process to sell your NFT:
+-> Go to Collection -> Owned 
+-> Click sell on NFT you want to place for sale.
+-> Set the selling price
+-> Click Sell. 
 
 Process to create your own NFT:
 -> Go to create NFT page.
