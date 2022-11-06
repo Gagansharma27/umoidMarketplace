@@ -41,5 +41,21 @@ Now with a click your NFT will be minted in seconds.
 
 
 ## Generator preview
-![alt text](./public/umoid.png) 
+
+Screen 1
+
+![alt text](./public/Screen%201.png)
+
+Screen2 
+![alt text](./public/Screen%202.png)
+
+
+## Art Gallery Preview
+
+ART GALLERY
+
+![alt text](./public/ArtGallery_1.jpeg)
+
+![alt text](./public/ArtGallery_2.jpeg)
+
 
